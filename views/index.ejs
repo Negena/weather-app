@@ -1,0 +1,16 @@
+<%- include("./partials/header.ejs") %>
+<%- include("./search.ejs") %>
+<div class="container-response">
+       <h3>weather in <%= data.location.name %></h3>
+      <div class="col"><div class="first"><h4>time: <%= data.location.localtime %></h4>
+        <h2>temperature: <%= data.current.temp_c %>&#8451;</h2>
+        </div>
+       <div class="img">
+         <img src="<%= data.current.condition.icon %>" class="ic" alt="">
+         </div>
+        </div>
+      </div>
+      
+  </body>
+</html>
+ 

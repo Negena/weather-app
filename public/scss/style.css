@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Merienda:wght@400;700&family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-transform: capitalize;
+  font-family: 'Allura', cursive;
+  font-family: 'Merienda', cursive;
+}
+
+header {
+  background-color: #f6f7f2;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+header i {
+  font-size: 5rem;
+  color: #3f7db1;
+}
+
+.container-search {
+  margin: 20px 5px 20px 3px;
+  padding: 20px;
+  width: 100vw;
+  border-bottom: 1px solid #3f7db1;
+}
+
+.container-search form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.container-search form input {
+  color: grey;
+}
+
+.container-search form input, .container-search form button {
+  margin-bottom: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.container-search form button {
+  background-color: #e7e7ec;
+  border: 0px;
+}
+
+.container-search form button:hover {
+  border: 0.5px solid grey;
+}
+
+.container-response {
+  font-family: 'Allura', cursive;
+  font-family: 'Merienda', cursive;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #3f7db1;
+  padding: 20px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#4fb576), color-stop(30%, #44c489), color-stop(46%, #28a9ae), color-stop(59%, #28a2b7), color-stop(71%, #4c7788), color-stop(86%, #6c4f63), to(#432c39));
+  background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  height: 45vh;
+  width: 100vw;
+  border-radius: 3.5%;
+}
+
+.container-response .col {
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  font-size: 2rem;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.container-response h3 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.container-response .img img i {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
